@@ -67,4 +67,4 @@ pictures&logos
 Drawing by Mariano Viola
 
 <strong>THANKS</strong><br/>
-<a href = "http://processing.org" target = "_blank">Processing</a>, <a href = "http://arduino.cc" target = "_blank">Arduino</a>, <a href = "https://unity3d.com" target = "_blank">Unity3d</a>, <a href = "http://fritzing.org/home/" target = "_blank">Fritzing</a>, the people who developed the bridge sketch and the library, the 3d models, who ripped and uploaded tracks, the online community.
+My supervisor Davide Rocchesso, my co-supervisors Gillian Crampton Smith and Philip Tabor, my friends Mariano Viola and Valeria Sanguin, my labmates at Iuav, <a href = "http://processing.org" target = "_blank">Processing</a>, <a href = "http://arduino.cc" target = "_blank">Arduino</a>, <a href = "https://unity3d.com" target = "_blank">Unity3d</a>, <a href = "http://fritzing.org/home/" target = "_blank">Fritzing</a>, the people who developed the bridge sketch and the library, the 3d models, who ripped and uploaded tracks, the online community.
