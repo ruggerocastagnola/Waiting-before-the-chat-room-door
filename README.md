@@ -10,8 +10,8 @@ The installation aims at recreating as a virtual space the room and environment 
 This repository collects the code and instructions to rebuild the installation from scratch. If you just want to try the demo out, <a href = "http://www.ruggerocastagnola.com/docs/waiting_before_the_chat_room_door/waiting_before_the_chat_room_door_demo_test_mode.zip" target = "_blank">download it here</a>. Use the arrow keys to move around and the mouse to rotate.
 
 <strong>ARCHITECTURE</strong><br/>
-The installation consists of a hardware part, a head mounted controller built with an Arduino plus an Inertial Measurement Unit, and a software part, developed in Unity3d. 
-The IMU gathers information from the accelerometer (2 axis) and gyroscope (1 axes) and sends them via I2C to the Arduino, which sends them to the computer via the serial port.
+The installation consists of a hardware part, a head mounted controller built with an Arduino plus a Motion Processing Unit, and a software part, developed in Unity3d. 
+The MPU gathers information from the accelerometer (2 axis) and gyroscope (1 axes) and sends them via I2C to the Arduino, which sends them to the computer via the serial port.
 
 <img src = "http://www.ruggerocastagnola.com/docs/waiting_before_the_chat_room_door/hardware_information_flow_scheme.png">
 
