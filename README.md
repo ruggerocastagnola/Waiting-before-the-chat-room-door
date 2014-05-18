@@ -15,11 +15,11 @@ The MPU gathers information from the accelerometer (2 axis) and gyroscope (1 axe
 
 <img src = "http://www.ruggerocastagnola.com/docs/waiting_before_the_chat_room_door/hardware_information_flow_scheme.png">
 
-Since I own a mac and there are unresolved issues with receiving a serial input in Unity, an additional Processing OSC sketch was necessary to bridge the two. The sketch was developed by .. and her thorough post can be read here. 
+Since I own a mac and there are unresolved issues with receiving a serial input in Unity, an additional Processing OSC sketch was necessary to bridge the two. The sketch was developed by Ellen Sundh and her post can be read <a href = "http://www.sundh.com/blog/2012/05/unity-processing-arduino/" target = "_blank">on her blog</a>. 
 
 So the incoming serial port values are read by Processing and turned into OSC messages. These messages are then fed into Unity through Unity's OSC script. 
 
-When the head-mounted controller is connected to the computer through the serial cable, the OSCbridge Processing sketch is up and running and Unity is in play mode, you should be able to move and rotate around the room, and interact with objects.
+When the head-mounted controller is connected to the computer through the serial cable, the OSCbridge Processing sketch is up and running and Unity is in play mode, you should be able to move and rotate around the room, and interact with the computer.
 
 <strong>INTERACTIONS</strong><br/>
 Currently, in the CharacterController.js script (in the Unity bundle) allows for moving left/right and forward/backward by tilting the head.
