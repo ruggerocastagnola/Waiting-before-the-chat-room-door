@@ -60,15 +60,11 @@ Originally, the user was supposed to be able to physically walk around in space,
 
 Since the audio component is key for this experience, another nice improvement would be a more precise ambient real time sound rendering. This could be done low cost using VBO.
 
-<strong>MATERIALS</strong><br/>
+<strong>MULTIMEDIA SOURCES</strong><br/>
 3d models
 audio
 pictures&logos
+Drawing by Mariano Viola
 
-<strong>ACKNOWLEDGMENTS</strong><br/>
-Processing
-Arduino
-Unity3d
-Fritzing
-people who developed the bridge sketch and the library
-online community
+<strong>THANKS</strong><br/>
+<a href = "http://processing.org" target = "_blank">Processing</a>, <a href = "http://arduino.cc" target = "_blank">Arduino</a>, <a href = "https://unity3d.com" target = "_blank">Unity3d</a>, <a href = "http://fritzing.org/home/" target = "_blank">Fritzing</a>, the people who developed the bridge sketch and the library, the 3d models, who ripped and uploaded tracks, the online community.
