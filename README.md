@@ -13,7 +13,7 @@ This repository collects the code and instructions to rebuild the installation f
 The installation consists of a hardware part, a head mounted controller built with an Arduino plus an Inertial Measurement Unit, and a software part, developed in Unity3d. 
 The IMU gathers information from the accelerometer (2 axis) and gyroscope (1 axes) and sends them via I2C to the Arduino, which sends them to the computer via the serial port.
 
-(img)
+<img src = "http://www.ruggerocastagnola.com/docs/waiting_before_the_chat_room_door/hardware_information_flow_scheme.png">
 
 Since I own a mac and there are unresolved issues with receiving a serial input in Unity, an additional Processing OSC sketch was necessary to bridge the two. The sketch was developed by .. and her thorough post can be read here. 
 
