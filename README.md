@@ -24,11 +24,11 @@ When the head-mounted controller is connected to the computer through the serial
 <strong>INTERACTIONS</strong><br/>
 Currently, in the CharacterController.js script (in the Unity bundle) allows for moving left/right and forward/backward by tilting the head.
 
-(img)
+<img src = "http://www.ruggerocastagnola.com/docs/waiting_before_the_chat_room_door/tilting_head_interaction.png">
 
 It also allows rotating left/right to rotate the view around the room.
 
-(img)
+<img src = "http://www.ruggerocastagnola.com/docs/waiting_before_the_chat_room_door/rotating_head_interaction.png">
 
 <strong>HARDWARE</strong><br/>
 Sparkfun MPU-9150 (link)
