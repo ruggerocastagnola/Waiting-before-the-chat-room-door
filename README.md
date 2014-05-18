@@ -33,7 +33,7 @@ It also allows rotating left/right to rotate the view around the room.
 <strong>HARDWARE</strong><br/>
 <a href = "http://www.sparkfun.com/products/11486" target = "_blank">Sparkfun's MPU-9150</a><br/>
 <a href = "http://arduino.cc/en/Main/arduinoBoardUno" target = "_blank">Arduino Uno (R3)</a><br/>
-<a href = "http://www.adafruit.com/products/757" target = "_blank">Adafruit's bidirectional level shifter: In between the MPU (signal at 3.3V) and the Arduino pins (they output 5V).</a><br/>
+<a href = "http://www.adafruit.com/products/757" target = "_blank">Adafruit's bidirectional level shifter</a>: In between the MPU (signal at 3.3V) and the Arduino pins (they output 5V).<br/>
 
 Below you can find the schematics to wire it all up.
 
@@ -45,19 +45,15 @@ To develop, test and run the installation I used a 2013 MacBook Pro 2.4GHZ i5 wi
 The case was designed and 3d printed by Davide Tuberga. The CAD designs are available here.
 
 <strong>SOFTWARE (aka WHAT GOES WHERE)</strong><br/>
-ArduinoMPU: contains the ArduinoMPU sketch to load onto the Arduino. It is an example sketch to extract the raw data from the Sparkfun MPU-9150. The original library can be found here:
-https://github.com/sparkfun/MPU-9150_Breakout
-
-Calibration sketches: contains two calibration sketches written in Processing to understand the limit values for tilting and rotating.
-
-OSCbridge: is the sketch that takes the input serial port value and turns it into OSC messages for Unity.
-
-unity_demo_01: contains the whole package to run in Unity. It was developed and tested on a with Unity 4.3.4f1.
+<strong>ArduinoMPU</strong>: contains the ArduinoMPU sketch to load onto the Arduino. It is an example sketch to extract the raw data from the Sparkfun MPU-9150. The original library can be found <a href = "http://github.com/sparkfun/MPU-9150_Breakout" target = "_blank">here</a>.
+<strong>Calibration sketches</strong>: contains two calibration sketches written in Processing to understand the limit values for tilting and rotating.
+<strong>OSCbridge</strong>: is the sketch that takes the input serial port value and turns it into OSC messages for Unity.
+<strong>unity_demo_01</strong>: contains the whole package to run in Unity. It was developed and tested on a with Unity 4.3.4f1.
 
 <strong>UNITY SCRIPTS</strong><br/>
 
 <strong>HOW TO PUT THE HEAD MOUNTED CONTROLLER ON</strong><br/>
-Like in the picture below. Acceleration and rotation values heavily depend on orientation and the way the head moves. If the controller is not worn like that, it won't probably work.
+As you see in the picture below. Acceleration and rotation values heavily depend on orientation and the way the head moves. If the controller is not worn like that, it won't probably work.
 
 <strong>POSSIBLE FUTURE IMPROVEMENTS</strong><br/>
 Originally, the user was supposed to be able to physically walk around in space, but to port and implement such software was too far out my schedule. It exists however, and it's a gait tracking algorythm written by .. during his PhD.
