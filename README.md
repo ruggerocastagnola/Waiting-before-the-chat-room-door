@@ -1,5 +1,6 @@
 Waiting before the chat room door — installation demo
 ========
+<p style="text-decoration:underline;">As of May, 18th, 2014 this file is work in progress</p>
 
 <strong>Waiting Before the Chat Room Door</strong> is both a research project and a first person perspective interactive installation revolving around adolescent users of the medium between the end of the Nineties and the early Two-thousands. It is a Master's thesis work in Interaction Design at Iuav University of Venice (2014).
 
@@ -56,9 +57,9 @@ The case was designed and 3d printed by Davide Tuberga. The CAD designs are avai
 As you see in the picture below. Acceleration and rotation values heavily depend on orientation and the way the head moves. If the controller is not worn like that, it won't work.
 
 <strong>POSSIBLE FUTURE IMPROVEMENTS</strong><br/>
-Originally, the user was supposed to be able to physically walk around in space, but to port and implement such software was too far out my schedule. It exists however, and it's a gait tracking algorythm written by .. during his PhD.
+Would be interesting if users could physically walk around in space. Maybe using this nice gait tracking algorythm developed by .. during his PhD.
 
-Since the audio component is key for this experience, another nice improvement would be a more precise ambient real time sound rendering. This could be done low cost using VBO.
+Since the audio component is key for this experience, another nice improvement would be a more precise ambient real time sound rendering. This could be done low cost using VBOP.
 
 <strong>MULTIMEDIA SOURCES</strong><br/>
 3d models
