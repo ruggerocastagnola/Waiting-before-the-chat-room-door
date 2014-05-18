@@ -3,7 +3,7 @@ Waiting before the chat room door — installation demo
 
 Waiting Before the Chat Room Door is both a research project and a first person perspective interactive installation revolving around adolescent users of the medium between the end of the Nineties and the early Two-thousands. It is a Master's thesis work in Interaction Design at Iuav University of Venice (2014).
 
-More info on the project here:
+More info on the project here: http://www.interaction-venice.com/projects/iuav-thesis/projects-2014/waiting-before-the-chat-room-door/
 
 The installation aims at recreating the room and environment where the old home personal computer was kept as a virtual space. To make it a living museum and an actual place for memories.
 
