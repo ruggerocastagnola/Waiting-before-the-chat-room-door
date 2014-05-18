@@ -31,9 +31,9 @@ It also allows rotating left/right to rotate the view around the room.
 <img src = "http://www.ruggerocastagnola.com/docs/waiting_before_the_chat_room_door/rotating_head_interaction.png">
 
 <strong>HARDWARE</strong><br/>
-Sparkfun MPU-9150 (link)
-Arduino Uno (link)
-Level shifter(link): In between the MPU (signal at 3.3V) and the Arduino pins (they output 5V).
+<a href = "http://www.sparkfun.com/products/11486" target = "_blank">Sparkfun's MPU-9150</a><br/>
+<a href = "http://arduino.cc/en/Main/arduinoBoardUno" target = "_blank">Arduino Uno (R3)</a><br/>
+<a href = "http://www.adafruit.com/products/757" target = "_blank">Adafruit's bidirectional level shifter: In between the MPU (signal at 3.3V) and the Arduino pins (they output 5V).</a><br/>
 
 Below you can find the schematics to wire it all up.
 
