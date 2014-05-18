@@ -37,7 +37,7 @@ Level shifter(link): In between the MPU (signal at 3.3V) and the Arduino pins (t
 
 Below you can find the schematics to wire it all up.
 
-(fritzing scheme)
+<img src = "http://ruggerocastagnola.com/docs/waiting_before_the_chat_room_door/electronics_fritzing.png">
 
 To develop, test and run the installation I used a 2013 MacBook Pro 2.4GHZ i5 with OSX 10.9.2 (Mavericks).
 
