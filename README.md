@@ -1,15 +1,15 @@
 Waiting before the chat room door — installation demo
 ========
 
-Waiting Before the Chat Room Door is both a research project and a first person perspective interactive installation revolving around adolescent users of the medium between the end of the Nineties and the early Two-thousands. It is a Master's thesis work in Interaction Design at Iuav University of Venice (2014).
+<strong>Waiting Before the Chat Room Door</strong> is both a research project and a first person perspective interactive installation revolving around adolescent users of the medium between the end of the Nineties and the early Two-thousands. It is a Master's thesis work in Interaction Design at Iuav University of Venice (2014).
 
-More info on the project on the <a href = "http://www.interaction-venice.com/projects/iuav-thesis/projects-2014/waiting-before-the-chat-room-door/" target = "_blank">Interaction Venice website</a>
+More info on the project on the <a href = "http://www.interaction-venice.com/projects/iuav-thesis/projects-2014/waiting-before-the-chat-room-door/" target = "_blank">Interaction Venice website</a>.
 
-The installation aims at recreating the room and environment where the old home personal computer was kept as a virtual space. To make it a living museum and an actual place for memories.
+The installation aims at recreating as a virtual space the room and environment where my old home personal computer was kept. To make it a living museum and an actual place for memories.
 
-This repository collects the code and instructions to rebuild the installation from scratch. If you just want to try the demo out, go here (link). Use the arrow keys to move around and the mouse to rotate.
+This repository collects the code and instructions to rebuild the installation from scratch. If you just want to try the demo out, <a href = "http://www.ruggerocastagnola.com/docs/waiting_before_the_chat_room_door/waiting_before_the_chat_room_door_demo_test_mode.zip" target = "_blank">download it here</a>. Use the arrow keys to move around and the mouse to rotate.
 
-ARCHITECTURE
+<strong>ARCHITECTURE</strong>
 The installation consists of a hardware part, a head mounted controller built with an Arduino plus an Inertial Measurement Unit, and a software part, developed in Unity3d. 
 The IMU gathers information from the accelerometer (2 axis) and gyroscope (1 axes) and sends them via I2C to the Arduino, which sends them to the computer via the serial port.
 
